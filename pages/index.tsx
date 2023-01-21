@@ -1,8 +1,13 @@
+import { Nav, Main } from '@components';
+import { Box } from '@mui/material';
+
 export default function Home() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <p className="text-sky-400">The quick brown fox...</p>
-    </>
+    <Box className="grid lg:grid-cols-5">
+      <Nav />
+      <main className="lg:col-span-4">
+        <Main />
+      </main>
+    </Box>
   );
 }
