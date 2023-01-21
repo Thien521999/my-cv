@@ -353,6 +353,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mui/lab@npm:^5.0.0-alpha.116":
+  version: 5.0.0-alpha.116
+  resolution: "@mui/lab@npm:5.0.0-alpha.116"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    "@mui/base": 5.0.0-alpha.114
+    "@mui/system": ^5.11.5
+    "@mui/types": ^7.2.3
+    "@mui/utils": ^5.11.2
+    clsx: ^1.2.1
+    prop-types: ^15.8.1
+    react-is: ^18.2.0
+  peerDependencies:
+    "@emotion/react": ^11.5.0
+    "@emotion/styled": ^11.3.0
+    "@mui/material": ^5.0.0
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@emotion/react":
+      optional: true
+    "@emotion/styled":
+      optional: true
+    "@types/react":
+      optional: true
+  checksum: 19f101e646afc90925a6735d45546f6a1c85da5aa03b0b4f987c19c6208b78ba991a98c9d8c422e7417f7dce3b19494d2c7e3dd068c263608864d73b9658619a
+  languageName: node
+  linkType: hard
+
 "@mui/material@npm:^5.11.5":
   version: 5.11.5
   resolution: "@mui/material@npm:5.11.5"
@@ -3204,6 +3234,7 @@ __metadata:
     "@emotion/server": ^11.10.0
     "@emotion/styled": ^11.10.5
     "@mui/icons-material": ^5.11.0
+    "@mui/lab": ^5.0.0-alpha.116
     "@mui/material": ^5.11.5
     "@next/font": ^13.1.2
     "@types/node": 18.11.18
