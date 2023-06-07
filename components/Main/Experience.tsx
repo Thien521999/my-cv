@@ -28,13 +28,20 @@ export const Experience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <strong>
-                10/2022 - Current
+                03/2023 - current
                 <br />
               </strong>
               <div>Role: Front-end</div>
-              <div>Resoures: 2 members (FE)</div>
-              <div>Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API, Git extension, Drag and Drop</div>
-              <div>{`Project: Website to manage the garage's repair schedule`}</div>
+              <div>Resoures: 3 members (FE)</div>
+              <div>
+                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
+                Git extension, SEO
+              </div>
+              <div>{`Project: Hotel booking website `}</div>
+              <div>
+                The main task: Set up the code base, build the project from scratch, develop and
+                assist the debugging team
+              </div>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
@@ -44,17 +51,66 @@ export const Experience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <strong>
-                02/2021 - 10/2022
+                01/2023 - 03/2023
                 <br />
               </strong>
               <div>Role: Front-end</div>
               <div>Resoures: 2 members (FE)</div>
-              <div>Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API, Git extension</div>
-              <div>Project:</div>
-              <ul>
-                <li>-Customer relationship management</li>
-                <li>-Website selling eyeglasses for Hong Kong</li>
-              </ul>
+              <div>
+                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
+                Git extension, Drag and Drop
+              </div>
+              <div>{`Project: Website to manage the garage's repair schedule`}</div>
+              <div>
+                The main task: Set up the code base, build the project from scratch, develop and
+                assist the debugging team
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <strong>
+                11/2022 - 01/2023
+                <br />
+              </strong>
+              <div>Role: Front-end</div>
+              <div>Resoures: 2 members (FE)</div>
+              <div>
+                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
+                Git extension
+              </div>
+              <div>Project: Website selling eyeglasses for Hong Kong</div>
+              <div>
+                The main task: Set up the code base, build the project from scratch, develop and
+                assist the debugging team
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <strong>
+                02/2022 - 11/2022
+                <br />
+              </strong>
+              <div>Role: Front-end</div>
+              <div>Resoures: 3 members (FE)</div>
+              <div>
+                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
+                Git extension
+              </div>
+              <div>Project: Customer relationship management</div>
+              <div>
+                The main task: Set up the code base, build the project from scratch, develop and
+                assist the debugging team
+              </div>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
@@ -69,9 +125,15 @@ export const Experience = () => {
                 E-commerce
               </strong>
               <div>Role: Front-end</div>
-              <div>Resoures: 6 members (FE)</div>
-              <div>Knowledge achievement:PWA magento 2, React JS, React Hooks, Git extension, GraphQl</div>
+              <div>Resoures: 6 members (FE), 3 members (BE)</div>
+              <div>
+                Knowledge achievement:PWA magento 2, React JS, React Hooks, Git extension, GraphQl
+              </div>
               <div>Project: E-commerce website for selling milk in Hong Kong</div>
+              <div>
+                The main task: Maintain and develop more new features according to customer
+                requirements.
+              </div>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
@@ -85,12 +147,13 @@ export const Experience = () => {
                 First Interactive Technology
               </strong>
               <div>Role: Interns, Front-end(maintenance)</div>
-              <div>Resoures: 2 members (FE)</div>
+              <div>Resoures: 3 members (FE)</div>
               <div>
-                Knowledge achievement: HTML, CSS, Javascript, React/Next, Typescript, Redux, Redux-toolkit,  Material-UI,
-                Ant-design, Atomic Design, Git extension,...{' '}
+                Knowledge achievement: HTML, CSS, Javascript, React/Next, Typescript, Redux,
+                Redux-toolkit, Material-UI, Atomic Design, Git extension,...{' '}
               </div>
               <div>Project: HRSOL(Human Resource Solution)</div>
+              <div>The main task: Maintain and develop the project, refactor the code</div>
             </TimelineContent>
           </TimelineItem>
         </Timeline>

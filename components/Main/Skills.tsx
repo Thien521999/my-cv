@@ -70,20 +70,13 @@ const listStyle = [
   },
   {
     id: 4,
-    name: 'Ant Design',
-    color: '#7cb305',
-    colorBorder: '#eaff8f',
-    bgColor: '#fcffe6',
-  },
-  {
-    id: 5,
     name: 'Material UI',
     color: '#c41d7f',
     colorBorder: '#ffadd2',
     bgColor: '#fff0f6',
   },
   {
-    id: 6,
+    id: 5,
     name: 'styled components',
     color: '#08979c',
     colorBorder: '#87e8de',
@@ -248,11 +241,10 @@ export const Skills = () => {
           </div>
           <div className="my-4">
             I have developed many websites using NextJS/React + Typescript, using Redux Toolkit for
-            state management, communicating with Rest API to get data. I also have experience in BE
-            nodejs, express, SQL, ...
+            state management, communicating with Rest API to get data.
           </div>
         </div>
-        <div className="mt-1 p-6">
+        {/* <div className="mt-1 p-6">
           <div>
             NodeJs:&nbsp;
             {listOther.map((item) => (
@@ -269,7 +261,7 @@ export const Skills = () => {
           <div className="my-4">
             I use BE nodeJS to be able to create api, apply some personal projects
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
