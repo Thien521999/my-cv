@@ -13,6 +13,7 @@ export const Experience = () => {
         <span>Experience</span>
       </div>
       <div className="mt-1 pt-4 hover:shadow-inner">
+        <div className="text-[#38ada9] font-bold">Legato Technologies Limited</div>
         <Timeline
           sx={{
             [`& .${timelineItemClasses.root}:before`]: {
@@ -28,7 +29,7 @@ export const Experience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <strong>
-                03/2023 - current
+                05/2023 - current
                 <br />
               </strong>
               <div>Role: Front-end</div>
@@ -51,7 +52,7 @@ export const Experience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <strong>
-                01/2023 - 03/2023
+                01/2023 - 05/2023
                 <br />
               </strong>
               <div>Role: Front-end</div>
@@ -84,10 +85,7 @@ export const Experience = () => {
                 Git extension
               </div>
               <div>Project: Website selling eyeglasses for Hong Kong</div>
-              <div>
-                The main task: Set up the code base, build the project from scratch, develop and
-                assist the debugging team
-              </div>
+              <div>The main task: Maintain and develop the project, refactor the code</div>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
@@ -97,7 +95,7 @@ export const Experience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <strong>
-                02/2022 - 11/2022
+                11/2021 - 11/2022
                 <br />
               </strong>
               <div>Role: Front-end</div>
@@ -120,7 +118,7 @@ export const Experience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <strong>
-                10/2021 - 01/2022
+                04/2021 - 11/2021
                 <br />
                 E-commerce
               </strong>
@@ -136,13 +134,23 @@ export const Experience = () => {
               </div>
             </TimelineContent>
           </TimelineItem>
+        </Timeline>
+        <div className="mt-1 text-[#38ada9] font-bold">Citynow Company Limited</div>
+        <Timeline
+          sx={{
+            [`& .${timelineItemClasses.root}:before`]: {
+              flex: 0,
+              padding: 0,
+            },
+          }}
+        >
           <TimelineItem>
             <TimelineSeparator>
               <TimelineDot />
             </TimelineSeparator>
             <TimelineContent>
               <strong>
-                04/2021 - 07-2021
+                01/2021 - 04-2021
                 <br />
                 First Interactive Technology
               </strong>
