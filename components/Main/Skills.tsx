@@ -182,12 +182,14 @@ const listOther = [
 
 export const Skills = () => {
   return (
-    <div>
-      <div className="border-b-2 mt-4 pb-2 #000000">
+    <div id="skill" className="flex flex-col p-12 min-h-screen justify-center">
+      <div className="pb-12 text-4xl uppercase font-bold text-[#343a3f]">
         <span>Skills</span>
       </div>
-      <div className="hover:shadow-inner">
-        <div className="mt-1 p-6">
+      <div
+      // className="hover:shadow-inner"
+      >
+        <div className="mt-1">
           <div>
             Collaborate:&nbsp;
             {listCollaborate.map((item) => (
@@ -207,7 +209,7 @@ export const Skills = () => {
 		`}
           </div>
         </div>
-        <div className="mt-1 p-6">
+        <div className="mt-1">
           <div>
             Styling:&nbsp;
             {listStyle.map((item) => (
@@ -225,7 +227,7 @@ export const Skills = () => {
             I can create beautiful responsive designs with the help of various UI libraries.
           </div>
         </div>
-        <div className="mt-1 p-6">
+        <div className="mt-1">
           <div>
             React/Next:&nbsp;
             {listTech.map((item) => (

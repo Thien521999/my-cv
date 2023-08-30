@@ -8,12 +8,15 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 export const Experience = () => {
   return (
-    <div>
-      <div className="border-b-2 mt-4 pb-2 #000000">
-        <span>Experience</span>
+    <div id="experience" className="flex flex-col p-12 min-h-screen justify-center">
+      <div className=" pb-2 #000000">
+        <span className="flex text-4xl uppercase font-bold text-[#343a3f]">Experience</span>
       </div>
-      <div className="mt-1 pt-4 hover:shadow-inner">
-        <div className="text-[#38ada9] font-bold">Legato Technologies Limited</div>
+      <div className="mt-1 pt-4">
+        <div className="text-[#079992] text-2xl font-bold uppercase">
+          Legato Technologies Limited
+        </div>
+        <div className="mb-4 text-[#34495e] text-1xl font-medium">FRONT-END ENGINEER</div>
         <Timeline
           sx={{
             [`& .${timelineItemClasses.root}:before`]: {
@@ -32,7 +35,7 @@ export const Experience = () => {
                 05/2023 - current
                 <br />
               </strong>
-              <div>Role: Front-end</div>
+              {/* <div>Role: Front-end</div> */}
               <div>Resoures: 3 members (FE)</div>
               <div>
                 Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
@@ -55,7 +58,7 @@ export const Experience = () => {
                 01/2023 - 05/2023
                 <br />
               </strong>
-              <div>Role: Front-end</div>
+              {/* <div>Role: Front-end</div> */}
               <div>Resoures: 2 members (FE)</div>
               <div>
                 Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
@@ -78,7 +81,7 @@ export const Experience = () => {
                 11/2022 - 01/2023
                 <br />
               </strong>
-              <div>Role: Front-end</div>
+              {/* <div>Role: Front-end</div> */}
               <div>Resoures: 2 members (FE)</div>
               <div>
                 Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
@@ -98,7 +101,7 @@ export const Experience = () => {
                 11/2021 - 11/2022
                 <br />
               </strong>
-              <div>Role: Front-end</div>
+              {/* <div>Role: Front-end</div> */}
               <div>Resoures: 3 members (FE)</div>
               <div>
                 Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
@@ -122,7 +125,7 @@ export const Experience = () => {
                 <br />
                 E-commerce
               </strong>
-              <div>Role: Front-end</div>
+              {/* <div>Role: Front-end</div> */}
               <div>Resoures: 6 members (FE), 3 members (BE)</div>
               <div>
                 Knowledge achievement:PWA magento 2, React JS, React Hooks, Git extension, GraphQl
@@ -135,7 +138,10 @@ export const Experience = () => {
             </TimelineContent>
           </TimelineItem>
         </Timeline>
-        <div className="mt-1 text-[#38ada9] font-bold">Citynow Company Limited</div>
+        <div className="pt-6 text-[#079992] text-2xl font-bold uppercase">
+          Citynow Company Limited
+        </div>
+        <div className="mb-4 text-[#34495e] text-1xl font-medium">FRONT-END ENGINEER</div>
         <Timeline
           sx={{
             [`& .${timelineItemClasses.root}:before`]: {
