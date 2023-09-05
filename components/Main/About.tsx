@@ -38,7 +38,13 @@ export const About = () => {
         <span className="mr-2">
           <AccountBoxIcon />
         </span>
-        FRONT END DEVELOPER
+        FRONT END DEVELOPER - &nbsp; <span>Link CV: &nbsp;</span>
+        <a
+          href={`https://tranhoangthien.vercel.app/`}
+          className="text-[#39ada9] hover:text-[#f9983a]"
+        >
+          https://tranhoangthien.vercel.app/
+        </a>
       </div>
       <div className="flex items-center font-medium mb-2 text-1xl text-[#34495e]">
         <span className="mr-2">
@@ -50,7 +56,7 @@ export const About = () => {
         </a>
       </div>
       <div className=" mt-1 px-6 py-4 bg-[#f8e8e7] rounded rounded-bl">
-        {`Hi, I'm Tran Hoang Thien, i have about 3 years of experience Developer specializing in Front-end web and
+        {`Hi, I'm Tran Hoang Thien, i have more than 2 years of experience Developer specializing in Front-end web and
         Mobile development. In the process of working, I get figma from design , then break it into
         pieces so that it can be reused next time.`}
       </div>
