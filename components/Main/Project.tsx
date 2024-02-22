@@ -10,6 +10,30 @@ export const Project = () => {
         <span>Project</span>
       </div>
       <div>
+      <div>
+          <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
+          <span className="ml-3">CSW Hotel - Booking hotel for Hong Kong</span>&nbsp;-&nbsp;
+          <a
+            href={`https://westkowloon.townplace.com.hk/`}
+            target="_blank"
+            rel="noreferrer"
+            className="cursor-pointer text-[#39ada9] font-bold hover:text-[#f9983a]"
+          >
+            https://westkowloon.townplace.com.hk/
+          </a>
+        </div>
+      <div>
+          <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
+          <span className="ml-3">RiverX</span>&nbsp;-&nbsp;
+          <a
+            href={`https://riverx-web-progress.legato.co/`}
+            target="_blank"
+            rel="noreferrer"
+            className="cursor-pointer text-[#39ada9] font-bold hover:text-[#f9983a]"
+          >
+            https://riverx-web-progress.legato.co/
+          </a>
+        </div>
         <div>
           <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
           <span className="ml-3">Social network</span>&nbsp;-&nbsp;
@@ -46,18 +70,7 @@ export const Project = () => {
             https://overlander-crm-uat.legato-concept.com/
           </a>
         </div>
-        <div>
-          <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
-          <span className="ml-3">CSW Hotel - Booking hotel for Hong Kong</span>&nbsp;-&nbsp;
-          <a
-            href={`https://overlander-crm-uat.legato-concept.com/`}
-            target="_blank"
-            rel="noreferrer"
-            className="cursor-pointer text-[#39ada9] font-bold hover:text-[#f9983a]"
-          >
-            https://csw-hotel-web-p2-progress.legato-concept.com/
-          </a>
-        </div>
+
         <div>
           <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
           <span className="ml-3">Swisscoat - Website selling eyeglasses in Hong Kong</span>

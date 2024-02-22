@@ -32,6 +32,29 @@ export const Experience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <strong>
+                08/2023 - current
+                <br />
+              </strong>
+              {/* <div>Role: Front-end</div> */}
+              <div>Resoures: 4 members (FE)</div>
+              <div>
+                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, Tailwindcss, REST API,
+                Git extension, SEO
+              </div>
+              <div>{`Project: RiverX `}</div>
+              <div>
+                The main task: Set up the code base, build the project from scratch, develop and
+                assist the debugging team
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <strong>
                 05/2023 - current
                 <br />
               </strong>

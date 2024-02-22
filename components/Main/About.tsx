@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import CallIcon from '@mui/icons-material/Call';
 
 const links = [
   {
@@ -31,6 +32,7 @@ const links = [
 const email = 'tranhoangthiendev@gmail.com';
 
 export const About = () => {
+  const year = 3;
   return (
     <div id="about" className="flex flex-col p-12 min-h-screen justify-center">
       <h1 className="flex text-6xl mb-3 uppercase font-bold text-[#343a3f]">Trần Hoàng Thiên</h1>
@@ -55,8 +57,15 @@ export const About = () => {
           tranhoangthiendev@gmail.com
         </a>
       </div>
+      <div className="flex items-center font-medium mb-2 text-1xl text-[#34495e]">
+        <span className="mr-2">
+          <CallIcon />
+        </span>
+        Phone -&nbsp;
+        0387878335
+      </div>
       <div className=" mt-1 px-6 py-4 bg-[#f8e8e7] rounded rounded-bl">
-        {`Hi, I'm Tran Hoang Thien, i have more than 2 years of experience Developer specializing in Front-end web and
+        {`Hi, I'm Tran Hoang Thien, i have more than ${year} years of experience Developer specializing in Front-end web and
         Mobile development. In the process of working, I get figma from design , then break it into
         pieces so that it can be reused next time.`}
       </div>
