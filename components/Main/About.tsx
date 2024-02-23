@@ -61,8 +61,7 @@ export const About = () => {
         <span className="mr-2">
           <CallIcon />
         </span>
-        Phone -&nbsp;
-        0387878335
+        Phone -&nbsp; 0387878335
       </div>
       <div className=" mt-1 px-6 py-4 bg-[#f8e8e7] rounded rounded-bl">
         {`Hi, I'm Tran Hoang Thien, i have more than ${year} years of experience Developer specializing in Front-end web and

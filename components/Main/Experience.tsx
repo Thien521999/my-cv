@@ -189,7 +189,7 @@ export const Experience = () => {
                 Knowledge achievement: HTML, CSS, Javascript, React/Next, Typescript, Redux,
                 Redux-toolkit, Material-UI, Atomic Design, Git extension,...{' '}
               </div>
-              <div>Project: HRSOL(Human Resource Solution)</div>
+              <div>Project: HRSOL</div>
               <div>The main task: Maintain and develop the project, refactor the code</div>
             </TimelineContent>
           </TimelineItem>
