@@ -4,7 +4,7 @@ import imgCute from '@public/images/imgCute.svg';
 
 export const End = () => {
   return (
-    <div id="the_end" className="flex flex-col p-12 min-h-screen justify-center">
+    <div id="the_end" className="flex flex-col min-h-screen justify-center">
       <div className="pb-8 flex text-4xl uppercase font-bold text-[#343a3f]">
         <span>THE END</span>
       </div>

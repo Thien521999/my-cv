@@ -182,7 +182,7 @@ const listOther = [
 
 export const Skills = () => {
   return (
-    <div id="skill" className="flex flex-col p-12 min-h-screen justify-center">
+    <div id="skill" className="flex flex-col py-8 min-h-screen justify-center">
       <div className="pb-12 text-4xl uppercase font-bold text-[#343a3f]">
         <span>Skills</span>
       </div>

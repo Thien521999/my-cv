@@ -5,9 +5,10 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import DownloadIcon from '@mui/icons-material/Download';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import avatar from '@public/images/avatar.jpeg';
+import avatar2 from '@public/images/avatar2.jpg';
 // import imgPeople from '@public/images/imgPeople.jpeg';
 import imgPeople from '@public/images/imgPeople.jpg';
+// import avatar from '@public/images/.jpg';
 import Image from 'next/image';
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -97,7 +98,7 @@ const infos = [
 
 export const Nav = () => {
   return (
-    <nav className="lg:sticky col-span-1 lg:h-screen top-0 left-0 bottom-0 bg-[#39ada9]">
+    <nav className="lg:sticky col-span-1 lg:h-screen top-0 left-0 bottom-0 bg-[#39ada9] sm:block hidden">
       <div className="lg:flex sm:grid grid-cols-2 lg:flex-col m-4 items-center justify-center h-full">
         <div>
           {/* <div className="flex items-center justify-center text-3xl text-white mb-2">
@@ -105,10 +106,10 @@ export const Nav = () => {
           </div> */}
           <div className="flex justify-center items-center rounded-full">
             <Image
-              src={imgPeople}
+              src={avatar2}
               alt="Picture of the author"
-              width="140"
-              height="140"
+              width="240"
+              height="240"
               style={{ borderRadius: '50%' }}
             />
           </div>

@@ -8,15 +8,11 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 export const Experience = () => {
   return (
-    <div id="experience" className="flex flex-col p-12 min-h-screen justify-center">
+    <div id="experience" className="flex flex-col py-8 min-h-screen justify-center">
       <div className=" pb-2 #000000">
         <span className="flex text-4xl uppercase font-bold text-[#343a3f]">Experience</span>
       </div>
       <div className="mt-1 pt-4">
-        <div className="text-[#079992] text-2xl font-bold uppercase">
-          Legato Technologies Limited
-        </div>
-        <div className="mb-4 text-[#34495e] text-1xl font-medium">FRONT-END ENGINEER</div>
         <Timeline
           sx={{
             [`& .${timelineItemClasses.root}:before`]: {
@@ -31,20 +27,71 @@ export const Experience = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <strong>
-                08/2023 - current
+              <div>
+                <strong>10/2021 - current:</strong>
                 <br />
-              </strong>
-              {/* <div>Role: Front-end</div> */}
-              <div>Resoures: 4 members (FE)</div>
-              <div>
-                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, Tailwindcss, REST API,
-                Git extension, SEO
+                <strong>Legato Technologies Limited</strong>
               </div>
-              <div>{`Project: RiverX `}</div>
+              <div>● Role: Front-end developer / Team Lead.</div>
+              <div>● Resoures: 4 members</div>
               <div>
-                The main task: Set up the code base, build the project from scratch, develop and
-                assist the debugging team
+                ● Tech stack: Next.js, React, React-Query, Hooks, Context, Redux, Redux-toolkit,
+                Material UI, Tailwindcss, REST API, SEO
+              </div>
+              <div>
+                ● The main task:
+                <ul className="pl-3">
+                  <li>
+                    ➤ Built and developed the project from scratch, which included designing and
+                    implementing various features as well as optimizing the code for improved
+                    performance and maintainability.
+                  </li>
+                  <li>
+                    ➤ Collaborate closely with multiple stakeholders, including the October CMS
+                    team, Android and iOS app developers, the Design team, Project Management, and
+                    other key stakeholders in Vietnam and Hong Kong to ensure seamless integration
+                    and alignment across platforms.
+                  </li>
+                  <li>➤ Assisted team members with code merging and code reviews.</li>
+                  <li>
+                    ➤ Proposed technical solutions to resolve issues and supported bug fixing.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                ● Project:
+                <ul className="pl-3">
+                  <li>
+                    ➤ RiverX: RiverX Maisi is an online platform, available both as a web and mobile
+                    app, aimed at connecting beauty practitioners (e.g., hair stylists, spa
+                    therapists, beauticians....) with end users. The platform allows beauty
+                    professionals to grow their client base, while providing users with a seamless
+                    solution to discover practitioners and book services. By simplifying the search
+                    and booking process, RiverX Maisi delivers a user-friendly and efficient
+                    experience for both clients and beauty service providers. Built using Next.js .
+                  </li>
+                  <li>
+                    ➤ Skechers: Staff who use the gift redemption mobile web interface to assist
+                    customers with gift redemptions. Built using Next.js
+                  </li>
+                  <li>
+                    ➤ CSW Hotel: Website users are customers, who can browse the information of the
+                    hotel and make room bookings through the website. Built using Next.js .
+                  </li>
+                  <li>
+                    ➤ Overlander: CRM Web users are consumers of The Overlander physical or online
+                    stores. They will register as a CRM member via CRM Web or eCommerce website to
+                    participate in the customer relationship program. Built using Next.js .
+                  </li>
+                  <li>
+                    ➤ Swisscoat: An online platform for ordering glasses for customers in Hong Kong.
+                    Built using React.{' '}
+                  </li>
+                  <li>
+                    ➤ Kowloon Dairy: E-commerce websites and App for Kowloon Dairy, a milk brand in
+                    Hong Kong (Maintenance Support). Built using PWA-Studio.
+                  </li>
+                </ul>
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -54,20 +101,19 @@ export const Experience = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <strong>
-                05/2023 - current
+              <div>
+                <strong>10/2020 - 04-2021:</strong>
                 <br />
-              </strong>
-              {/* <div>Role: Front-end</div> */}
-              <div>Resoures: 3 members (FE)</div>
-              <div>
-                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
-                Git extension, SEO
+                <strong>Citynow Company Limited</strong>
               </div>
-              <div>{`Project: Hotel booking website `}</div>
+              <div>● Role: Front-end developer </div>
+              <div>● Tech stack: React, React hooks, Redux, Ant design, REST API</div>
+              <div>● The main task: Maintain and develop the project, refactor the code</div>
               <div>
-                The main task: Set up the code base, build the project from scratch, develop and
-                assist the debugging team
+                ● Project:
+                <ul className="pl-3">
+                  <li>➤ HRSOL: Attendance solution for businesses. Built using React.</li>
+                </ul>
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -77,120 +123,29 @@ export const Experience = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <strong>
-                01/2023 - 05/2023
+              <div>
+                <strong>01/2020 - 10/2021:</strong>
                 <br />
-              </strong>
-              {/* <div>Role: Front-end</div> */}
-              <div>Resoures: 2 members (FE)</div>
-              <div>
-                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
-                Git extension, Drag and Drop
+                <strong>Personal Project</strong>
               </div>
-              <div>{`Project: Website to manage the garage's repair schedule`}</div>
+              <div>● Role: Fullstack developer </div>
               <div>
-                The main task: Set up the code base, build the project from scratch, develop and
-                assist the debugging team
+                ● Tech stack: React, React hooks, Redux-toolkit, Material UI, Node.JS, TypeScript,
+                ExpressJS, MongoDB, REST API
               </div>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              <strong>
-                11/2022 - 01/2023
-                <br />
-              </strong>
-              {/* <div>Role: Front-end</div> */}
-              <div>Resoures: 2 members (FE)</div>
               <div>
-                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
-                Git extension
+                ● The main task: Built and developed the project from scratch, including
+                implementing features and optimizing the code.
               </div>
-              <div>Project: Website selling eyeglasses for Hong Kong</div>
-              <div>The main task: Maintain and develop the project, refactor the code</div>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              <strong>
-                11/2021 - 11/2022
-                <br />
-              </strong>
-              {/* <div>Role: Front-end</div> */}
-              <div>Resoures: 3 members (FE)</div>
               <div>
-                Knowledge achievement: Next JS, React Hooks, Redux-toolkit, Material UI, REST API,
-                Git extension
+                ● Project:
+                <ul className="pl-3">
+                  <li>
+                    ➤ Blog app: Personal post management system that enables users to create, edit,
+                    and organize their content effectively.
+                  </li>
+                </ul>
               </div>
-              <div>Project: Customer relationship management</div>
-              <div>
-                The main task: Set up the code base, build the project from scratch, develop and
-                assist the debugging team
-              </div>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              <strong>
-                04/2021 - 11/2021
-                <br />
-                E-commerce
-              </strong>
-              {/* <div>Role: Front-end</div> */}
-              <div>Resoures: 6 members (FE), 3 members (BE)</div>
-              <div>
-                Knowledge achievement:PWA magento 2, React JS, React Hooks, Git extension, GraphQl
-              </div>
-              <div>Project: E-commerce website for selling milk in Hong Kong</div>
-              <div>
-                The main task: Maintain and develop more new features according to customer
-                requirements.
-              </div>
-            </TimelineContent>
-          </TimelineItem>
-        </Timeline>
-        <div className="pt-6 text-[#079992] text-2xl font-bold uppercase">
-          Citynow Company Limited
-        </div>
-        <div className="mb-4 text-[#34495e] text-1xl font-medium">FRONT-END ENGINEER</div>
-        <Timeline
-          sx={{
-            [`& .${timelineItemClasses.root}:before`]: {
-              flex: 0,
-              padding: 0,
-            },
-          }}
-        >
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-            </TimelineSeparator>
-            <TimelineContent>
-              <strong>
-                01/2021 - 04-2021
-                <br />
-                First Interactive Technology
-              </strong>
-              <div>Role: Interns, Front-end(maintenance)</div>
-              <div>Resoures: 3 members (FE)</div>
-              <div>
-                Knowledge achievement: HTML, CSS, Javascript, React/Next, Typescript, Redux,
-                Redux-toolkit, Material-UI, Atomic Design, Git extension,...{' '}
-              </div>
-              <div>Project: HRSOL</div>
-              <div>The main task: Maintain and develop the project, refactor the code</div>
             </TimelineContent>
           </TimelineItem>
         </Timeline>

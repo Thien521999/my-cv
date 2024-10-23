@@ -5,12 +5,12 @@ import { faThumbsUp, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
 export const Project = () => {
   return (
-    <div id="project" className="flex flex-col p-12 min-h-screen justify-center">
+    <div id="project" className="flex flex-col py-8 min-h-screen justify-center">
       <div className="pb-8 flex text-4xl uppercase font-bold text-[#343a3f]">
         <span>Project</span>
       </div>
       <div>
-      <div>
+        <div>
           <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
           <span className="ml-3">CSW Hotel - Booking hotel for Hong Kong</span>&nbsp;-&nbsp;
           <a
@@ -22,16 +22,16 @@ export const Project = () => {
             https://westkowloon.townplace.com.hk/
           </a>
         </div>
-      <div>
+        <div>
           <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
           <span className="ml-3">RiverX</span>&nbsp;-&nbsp;
           <a
-            href={`https://riverx-web-progress.legato.co/`}
+            href={`https://www-uat.maisiapp.com/`}
             target="_blank"
             rel="noreferrer"
             className="cursor-pointer text-[#39ada9] font-bold hover:text-[#f9983a]"
           >
-            https://riverx-web-progress.legato.co/
+            https://www-uat.maisiapp.com/
           </a>
         </div>
         <div>
@@ -46,7 +46,7 @@ export const Project = () => {
             https://social-network-beta-lac.vercel.app
           </a>
         </div>
-        <div>
+        {/* <div>
           <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
           <span className="ml-3">Shopping card</span>&nbsp;-&nbsp;
           <a
@@ -57,7 +57,7 @@ export const Project = () => {
           >
             https://mini-shopping-cart.vercel.app/
           </a>
-        </div>
+        </div> */}
         <div>
           <FontAwesomeIcon icon={faTrophy} size="1x" color="gold" />
           <span className="ml-3">Overlander</span>&nbsp;-&nbsp;
