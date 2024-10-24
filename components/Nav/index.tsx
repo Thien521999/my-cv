@@ -138,7 +138,13 @@ export const Nav = () => {
             </ScrollLink>
           ))}
           <li className="flex flex-row text-lg border-b-2 last:border-b-0 py-3 cursor-pointer items-center justify-center font-bold">
-            <span>DOWNLOAD PDF</span>
+            <a
+              href={`https://www.topcv.vn/xem-cv/BwddVlwAVw0DAAdUXFIGB1MFAAJRWFJQUFdWVw1ea8`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOWNLOAD PDF
+            </a>
           </li>
         </ul>
       </div>
