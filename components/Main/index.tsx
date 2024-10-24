@@ -16,8 +16,8 @@ export const Main = () => {
       <Skills />
       <hr />
       <Education />
-      {/* <hr />
-      <Project /> */}
+      <hr />
+      <Project />
       {/* <hr />
       <Hobbies /> */}
       <hr />

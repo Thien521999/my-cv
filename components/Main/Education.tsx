@@ -9,8 +9,8 @@ export const Education = () => {
       <div>
         <div>University of Science (HCMUS)</div>
         <div>2017-2021</div>
-        <div>Major: Mathematics and Computer Science</div>
-        <div>GPA: 7.6</div>
+        <div>Major: Bachelor Degree of Mathematics and Computer Science</div>
+        {/* <div>GPA: 7.6</div> */}
       </div>
     </div>
   );

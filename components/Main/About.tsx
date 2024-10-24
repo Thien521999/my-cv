@@ -91,15 +91,15 @@ export const About = () => {
         <span className="text-[#576879] text-[1.15rem] font-bold text-1xl">Front-End:</span>{' '}
         <span className="text-[1.1rem]">I have experience working with&nbsp;</span>
         <span className="text-[#576879] text-[1.15rem] font-bold text-1xl">
-          NextJS, ReactJS ( Hook, Redux, Redux-toolkit, React-Query), Material UI, TailwindCSS,
-          Axios, and other technologies.
+          Next.js(Pages Router, App Router, SEO), React( Hook, Redux, Redux-toolkit, React-Query),
+          TypeScript, Material UI, Ant Design, TailwindCSS, Axios, Fetch and other technologies.
         </span>
       </div>
       <div>
         <span className="text-[#576879] text-[1.15rem] font-bold text-1xl">Back-End:</span>
         <span className="text-[1.1rem]"> I have experience working with&nbsp;</span>
         <span className="text-[#576879] text-[1.15rem] font-bold text-1xl">
-          Node.JS, TypeScript, ExpressJS, MongoDB and other technologies.&nbsp;
+          Node.js, TypeScript, Express.js, MongoDB and other technologies.&nbsp;
         </span>
         <span>
           I usually use it for the pusrpose of doing some personal projects and freelancer.

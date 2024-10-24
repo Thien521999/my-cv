@@ -76,12 +76,12 @@ const infos = [
     text: 'EDUCATION',
     link: 'education',
   },
-  // {
-  //   id: 5,
-  //   icon: <LinkedInIcon />,
-  //   text: 'PROJECT',
-  //   link: 'project',
-  // },
+  {
+    id: 5,
+    icon: <LinkedInIcon />,
+    text: 'PROJECT',
+    link: 'project',
+  },
   // {
   //   id: 6,
   //   icon: <DownloadIcon />,
@@ -89,7 +89,7 @@ const infos = [
   //   link: 'interests',
   // },
   {
-    id: 5,
+    id: 6,
     icon: <DownloadIcon />,
     text: 'THE END',
     link: 'the_end',
