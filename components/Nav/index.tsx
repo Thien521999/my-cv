@@ -55,7 +55,7 @@ const infos = [
   {
     id: 1,
     icon: <AddLocationIcon />,
-    text: 'ABOUT',
+    text: 'ABOUT ME',
     link: 'about',
   },
   {
@@ -76,12 +76,12 @@ const infos = [
     text: 'EDUCATION',
     link: 'education',
   },
-  {
-    id: 5,
-    icon: <LinkedInIcon />,
-    text: 'PROJECT',
-    link: 'project',
-  },
+  // {
+  //   id: 5,
+  //   icon: <LinkedInIcon />,
+  //   text: 'PROJECT',
+  //   link: 'project',
+  // },
   // {
   //   id: 6,
   //   icon: <DownloadIcon />,
@@ -89,16 +89,22 @@ const infos = [
   //   link: 'interests',
   // },
   {
-    id: 6,
+    id: 5,
     icon: <DownloadIcon />,
     text: 'THE END',
     link: 'the_end',
   },
+  // {
+  //   id: 6,
+  //   icon: <DownloadIcon />,
+  //   text: 'DOWNLOAD PDF',
+  //   link: '',
+  // },
 ];
 
 export const Nav = () => {
   return (
-    <nav className="lg:sticky col-span-1 lg:h-screen top-0 left-0 bottom-0 bg-[#39ada9] sm:block hidden">
+    <nav className="lg:sticky col-span-1 lg:h-screen top-0 left-0 bottom-0 bg-[#39ada9] sm:block hidden overflow-y-scroll">
       <div className="lg:flex sm:grid grid-cols-2 lg:flex-col m-4 items-center justify-center h-full">
         <div>
           {/* <div className="flex items-center justify-center text-3xl text-white mb-2">
@@ -125,12 +131,15 @@ export const Nav = () => {
               offset={0}
               duration={500}
             >
-              <li className="flex flex-row text-sm border-b-2 last:border-b-0 text-[#a3d6d3] py-3 cursor-pointer items-center justify-center font-bold">
+              <li className="flex flex-row text-lg border-b-2 last:border-b-0 text-[#a3d6d3] py-3 cursor-pointer items-center justify-center font-bold hover:text-white">
                 {/* <span className="mr-2">{item?.icon}</span> */}
                 <span>{item?.text}</span>
               </li>
             </ScrollLink>
           ))}
+          <li className="flex flex-row text-lg border-b-2 last:border-b-0 py-3 cursor-pointer items-center justify-center font-bold">
+            <span>DOWNLOAD PDF</span>
+          </li>
         </ul>
       </div>
     </nav>
