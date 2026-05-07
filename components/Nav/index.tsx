@@ -55,7 +55,7 @@ const infos = [
   {
     id: 1,
     icon: <AddLocationIcon />,
-    text: 'ABOUT ME',
+    text: 'ABOUT',
     link: 'about',
   },
   {
@@ -67,7 +67,7 @@ const infos = [
   {
     id: 3,
     icon: <GitHubIcon />,
-    text: 'SKILL',
+    text: 'SKILLS',
     link: 'skill',
   },
   {
@@ -76,30 +76,6 @@ const infos = [
     text: 'EDUCATION',
     link: 'education',
   },
-  {
-    id: 5,
-    icon: <LinkedInIcon />,
-    text: 'PROJECT',
-    link: 'project',
-  },
-  // {
-  //   id: 6,
-  //   icon: <DownloadIcon />,
-  //   text: 'INTERESTS',
-  //   link: 'interests',
-  // },
-  {
-    id: 6,
-    icon: <DownloadIcon />,
-    text: 'THE END',
-    link: 'the_end',
-  },
-  // {
-  //   id: 6,
-  //   icon: <DownloadIcon />,
-  //   text: 'DOWNLOAD PDF',
-  //   link: '',
-  // },
 ];
 
 export const Nav = () => {
@@ -137,14 +113,15 @@ export const Nav = () => {
               </li>
             </ScrollLink>
           ))}
-          <li className="flex flex-row text-lg border-b-2 last:border-b-0 py-3 cursor-pointer items-center justify-center font-bold">
-            <a
-              href={`https://www.topcv.vn/xem-cv/BwddVlwAVw0DAAdUXFIGB1MFAAJRWFJQUFdWVw1ea8`}
-              target="_blank"
-              rel="noopener noreferrer"
+          <li className="flex flex-row text-lg border-b-2 last:border-b-0 py-3 items-center justify-center font-bold">
+            <button
+              type="button"
+              onClick={() => window.print()}
+              className="flex items-center gap-2 text-[#a3d6d3] hover:text-white cursor-pointer"
             >
-              DOWNLOAD PDF
-            </a>
+              <DownloadIcon />
+              <span>DOWNLOAD PDF</span>
+            </button>
           </li>
         </ul>
       </div>

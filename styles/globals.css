@@ -5,3 +5,50 @@
 .active span {
   color: #ffff;
 }
+
+/* PrintView is invisible on screen */
+.print-view {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 14mm;
+  }
+
+  html,
+  body {
+    overflow: visible !important;
+    height: auto !important;
+    background: #fff !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    font-size: 10pt;
+  }
+
+  /* Hide everything except the PrintView */
+  .screen-only,
+  .no-print,
+  nav {
+    display: none !important;
+  }
+
+  .print-view {
+    display: block !important;
+  }
+
+  /* Avoid breaking project blocks across pages */
+  .print-view section,
+  .print-view ul,
+  .print-view .print-keep {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-view a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+}
